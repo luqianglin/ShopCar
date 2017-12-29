@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>myShop.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+	<style type ="text/css">
+		form input.txt{
+			border: 2px solid red
+		}
+		input.sou{
+			color :white;
+			width: 10%;
+			background-color: red;
+		}
+		table{
+			width:100%;border: 1px solid black
+		}
+		th,td{
+			border: 1px solid black
+			
+		}
+	</style>
+	<script type="text/javascript">
+		function myclick(){
+			window.location="http://www.baidu.com";
+		}
+	</script>
+  </head>
+  <body>
+  
+  	<input type='button' value="+" onclick="myclick()">
+    <form>
+		<input type="text" width="50%" class="txt" name="goodName"/><input type="submit" class="sou" value="搜索"/>  
+    </form>
+    <table style="width:100%;border: 1px solid black">
+    	<tr>
+    		<th>显示图片</th><th>商品名称</th><th>商品单价</th><th>商品位置</th><th>操作</th>
+    	</tr>
+    </table>
+  </body>
+</html>
